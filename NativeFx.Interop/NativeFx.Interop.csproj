@@ -1,10 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <Platforms>AnyCPU;x64</Platforms>
+    <Title>NativeFx.Interop</Title>
+  </PropertyGroup>
+  
+  <!-- Versions -->
+  <PropertyGroup>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <Authors>WithLithum</Authors>
+    <Description>Provides automatically generated wrappers of GTA5 natives for use with ScriptHookVDotNet3</Description>
+    <PackageTags>shvdn3;shvdn;gta5;gtav;scripthookvdotnet;scripthookvdotnet3</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
