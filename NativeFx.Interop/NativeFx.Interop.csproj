@@ -10,14 +10,25 @@
   
   <!-- Versions -->
   <PropertyGroup>
-    <VersionPrefix>0.1.1</VersionPrefix>
+    <VersionPrefix>0.1.2</VersionPrefix>
     <Authors>WithLithum</Authors>
-    <Description>Provides automatically generated wrappers of GTA5 natives for use with ScriptHookVDotNet3</Description>
+    <Description>Provides programmatically generated wrappers of GTA5 natives for use with ScriptHookVDotNet3</Description>
     <PackageTags>shvdn3;shvdn;gta5;gtav;scripthookvdotnet;scripthookvdotnet3</PackageTags>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Update package information for NuGet submission</PackageReleaseNotes>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Copyright>(C) WithLithum 2022.</Copyright>
+    <RepositoryUrl>https://github.com/WithLithum/NativeFx-Interop</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="ScriptHookVDotNet3" Version="3.5.1" />
