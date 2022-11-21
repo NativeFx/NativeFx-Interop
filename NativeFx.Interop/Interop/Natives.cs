@@ -78450,6 +78450,8 @@ public static void WaypointPlaybackStartAimingAtCoord(int /* Ped */ ped, float x
 Function.Call((Hash)0x8968400D900ED8B3uL, ped, x, y, z, p4);
 }
 
+// *** Manual Edit: rename duplicate parameter
+
 /// <summary>
 /// <i>No description available.</i>
 /// </summary>
@@ -78459,7 +78461,7 @@ Function.Call((Hash)0x8968400D900ED8B3uL, ped, x, y, z, p4);
 /// <b>Native ID:</b> 0xE70BA7B90F8390DC<br />
 /// </para>
 /// </remarks>
-public static void WaypointPlaybackStartShootingAtPed(int /* Entity */ entity, int /* Entity */ entity, bool p2, bool p3)
+public static void WaypointPlaybackStartShootingAtPed(int /* Entity */ entity1, int /* Entity */ entity2, bool p2, bool p3)
 {
 Function.Call((Hash)0xE70BA7B90F8390DCuL, entity, entity, p2, p3);
 }
