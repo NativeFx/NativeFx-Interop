@@ -78463,7 +78463,7 @@ Function.Call((Hash)0x8968400D900ED8B3uL, ped, x, y, z, p4);
 /// </remarks>
 public static void WaypointPlaybackStartShootingAtPed(int /* Entity */ entity1, int /* Entity */ entity2, bool p2, bool p3)
 {
-Function.Call((Hash)0xE70BA7B90F8390DCuL, entity, entity, p2, p3);
+Function.Call((Hash)0xE70BA7B90F8390DCuL, entity1, entity2, p2, p3);
 }
 
 /// <summary>
