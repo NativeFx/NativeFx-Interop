@@ -10,11 +10,11 @@
   
   <!-- Versions -->
   <PropertyGroup>
-    <VersionPrefix>0.1.2</VersionPrefix>
+    <VersionPrefix>0.1.3</VersionPrefix>
     <Authors>WithLithum</Authors>
     <Description>Provides programmatically generated wrappers of GTA5 natives for use with ScriptHookVDotNet3</Description>
     <PackageTags>shvdn3;shvdn;gta5;gtav;scripthookvdotnet;scripthookvdotnet3</PackageTags>
-    <PackageReleaseNotes>Update package information for NuGet submission</PackageReleaseNotes>
+    <PackageReleaseNotes>Update natives information</PackageReleaseNotes>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Copyright>(C) WithLithum 2022.</Copyright>
